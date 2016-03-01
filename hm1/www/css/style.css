@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  width: 1440px;
+  height: 798px;
+  background-color: #efefef;
+}
+
+h2 {
+  font-family: Arial;
+  text-align: center;
+}
+
+.conteiner {
+  margin: 4px 464px 44px 464px;
+  width: 512px;
+  height: 750px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 14px 2px rgba(0,13,109,0.26);
+  -moz-box-shadow: 0px 0px 14px 2px rgba(0,13,109,0.26);
+  box-shadow: 0px 0px 14px 2px rgba(0,13,109,0.26);
+}
+
+p {
+  padding-left: 55px;
+  font-size: 16px;
+}
+
+.causes,
+.contact,
+.feedback {
+  margin: 0 50px 0;
+  height: 140px;
+  width: 412px;
+  border: 1px solid black;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+h3 {
+  padding-left: 5px;
+}
+
+ul {
+  line-height: 20px;
+}
+
+table {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+.feedback p {
+  margin-left: -45px;
+}
