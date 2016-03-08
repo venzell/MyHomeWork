@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: MyriadPro;
+  src: url('font/OpenSans.ttf');
+}
+
+body {
+  height: 960px;
+  width: 1366px;
+  background-color: #f9f9f9;
+}
+
+.container {
+  height: 100%;
+  width: 1060px;
+  margin:0 152px 0 152px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 3px 2px rgba(219,219,219,1);
+  -moz-box-shadow: 0px 0px 3px 2px rgba(219,219,219,1);
+  box-shadow: 0px 0px 3px 2px rgba(219,219,219,1);
+}
+
+header, footer{
+  margin-left: 46px;
+  margin-right: 46px;
+}
+
+header img {
+  margin: 49px 0 37px;
+}
+
+.menu {
+  width: 966px;
+}
+
+.nav {
+  line-height: 35px;
+  height: 40px;
+  list-style-type: none;
+  background-color: #535252;
+}
+
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 15px;
+  font-family: OpenSans;
+  font-weight: normal;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav #home a{
+  padding: 10.5px 56px 12px 25px;
+}
+
+.nav #home a:hover {
+  padding: 10.5px 55px 12px 25px;
+  background-color: #393939;
+  text-decoration: none;
+  border-right: 1px solid #838383;
+}
+
+.nav #product a{
+  padding: 10.5px 25px 12px 28px;
+}
+
+.nav #product a:hover{
+  padding: 10.5px 24px 12px 27px;
+  background-color: #393939;
+  text-decoration: none;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+.nav #about a{
+  padding: 10.5px 52px 12px 61px;
+}
+
+.nav #about a:hover{
+  padding: 10.5px 51px 12px 60px;
+  background-color: #393939;
+  text-decoration: none;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+.nav #contact a{
+  padding: 10.5px 41px 12px 36px;
+}
+
+.nav #contact a:hover{
+  padding: 10.5px 41px 12px 35px;
+  background-color: #393939;
+  text-decoration: none;
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+#bar {
+  float: left;
+  list-style-type: none;
+  width: 239px;
+  margin-top: 40px;
+  border: 1px solid #656363;
+  margin-left: 46px;
+}
+
+#bar a {
+  color: #656363;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: normal;
+  font-family: OpenSans;
+}
+
+#bar a:hover {
+  color: #2c2c2c;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: OpenSans;
+  padding-left: 35px;
+}
+
+#bar li {
+  padding: 10px 0 10px 23px;
+  border-bottom: 1px solid #656363;
+}
+
+.content {
+  float: right;
+  width: 678px;
+}
+.pictures {
+  height: 398px;
+  margin-top: 40px;
+  margin-right: 44px;
+  border: 1px solid #c8c8c8;
+  text-align: center;
+  line-height: 398px;
+}
+
+.pictures img {
+  vertical-align: middle;
+}
+
+.message {
+  margin-left: 10px;
+  margin-right: 48px;
+  margin-top: 39px;
+  font: 14px solid;
+  font-family: OpenSans;
+  color: #2c2c2c;
+}
+
+
+.foot {
+  clear: both;
+  width: 966px;
+  padding-top: 89px;
+}
+
+.end {
+
+  line-height: 35px;
+  height: 40px;
+  list-style-type: none;
+  background-color: #e1e1e1;
+}
+
+.end a {
+  color: #2c2c2c;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 13px;
+  font-family: OpenSans;
+  font-weight: normal;
+}
+
+.end li {
+  display: inline;
+}
+
+.end #home a{
+  padding: 10.5px 56px 12px 25px;
+}
+
+.end #home a:hover {
+  padding: 10.5px 56px 12px 25px;
+  text-decoration: underline;
+}
+
+.end #product a{
+  padding: 10.5px 25px 12px 28px;
+}
+
+.end #product a:hover{
+  padding: 10.5px 25px 12px 28px;
+  text-decoration: underline;
+}
+
+.end #about a{
+  padding: 10.5px 52px 12px 61px;
+}
+
+.end #about a:hover{
+  padding: 10.5px 52px 12px 61px;
+  text-decoration: underline;
+}
+
+.end #contact a{
+  padding: 10.5px 41px 12px 36px;
+}
+
+.end #contact a:hover{
+  padding: 10.5px 41px 12px 36px;
+  text-decoration: underline;
+}
+
+.end #copy {
+  padding: 10.5px 25px 12px 280px;
+  font-size: 13px;
+  font-family: OpenSans;
+  font-weight: normal;
+}
