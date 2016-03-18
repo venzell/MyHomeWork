@@ -4,10 +4,10 @@
 }
 
 body {
-  width: 1280px;
+  width: 100%;
   height: 1022px;
-  background-image: url(../img/bg1.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../img/bg.png);
+  background-repeat: repeat-x;
 
 }
 
@@ -15,7 +15,7 @@ body {
   width: 1000px;
   height: 988px;
   background-color: #ffffff;
-  margin: 0 129px 0  151px;
+  margin: auto;
   -webkit-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.68);
   -moz-box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.68);
   box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.68);
