@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  width: 1215px;
+  height: 1064px;
+  background: url(../img/bg1.png) no-repeat;
+}
+
+header {
+  height: 36px;
+  background: url(../img/hd1.png) no-repeat;
+}
+
+.menu,
+.menu_button {
+  float: right;
+  line-height: 36px;
+}
+
+.menu,
+.menu_button, a {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial;
+  text-decoration: none;
+  color: #60b5ed;
+}
+
+.menu li {
+  display: inline;
+}
+.menu a{
+  padding: 10px;
+}
+.menu li a:hover {
+  color: #ffffff;
+  background-color: #4eabda;
+}
+
+.menu_button {
+  display: inline;
+  height: 36px;
+  float: right;
+  vertical-align: middle;
+  margin-right: 20px;
+  border-left: 1px solid #56a2dc;
+}
+
+.menu_button li{
+  display: inline;
+}
+
+.menu_button img{
+  position: absolute;
+  left: 825px;
+  top: 6px;
+}
+
+a.button {
+  width: 190px;
+  display: inline-block;
+  color: #fefefe;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+}
+a.button:hover {
+  background-image: linear-gradient(to top, #2e7ac4, #4faedb);
+}
+
+a.button:focus {
+  background-image: linear-gradient(to top, #2e7ac4, #4faedb);
+    text-decoration: underline;
+}
+
+a.button:focus:hover {
+  background-image: linear-gradient(to top, #2e7ac4, #4faedb);
+}
+
+.main_form {
+  height: 613px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  margin-top: 207px;
+}
+
+.main_form p {
+  font-size: 24px;
+  line-height: 60px;
+  font-family: "Helvetica Neue", Arial;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #c3c7b9;
+}
+
+.main_form h5 {
+  margin: 0 auto;
+  text-align: center;
+  width: 350px;
+  margin-top: 20px;
+  font-size: 11px;
+  line-height: 13px;
+  font-family: "Helvetica Neue", Arial;
+  text-decoration: none;
+  color: #cccccc;
+}
+
+button {
+  display: inline;
+  text-align: center;
+  margin: 36px 112px 36px ;
+  width: 276px;
+  height: 35px;
+  border: 0;
+  border-radius: 6px;
+  background-image: url(../img/fb2.png);
+}
+
+.line {
+  width: 276px;
+  margin: 0 112px 36px;
+  display: inline;
+}
+
+.line span {
+  text-decoration: none;
+  border: none;
+  align-content: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #999999;
+  font-family: "Helvetica Neue", Arial;
+}
+
+form{
+  margin-top: 36px;
+}
+
+form input{
+  width: 276px;
+  height: 35px;
+  margin: 16px 112px 0;
+  display: block;
+  color: #fff;
+  background-image: linear-gradient(to top, #141414, #101010);
+  border: 0;
+  border-bottom: 1px solid #484948;
+}
+
+input:focus {
+  background: linear-gradient(to top, #1e4a76, #1e4a76);
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(105,155,205,0.8);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(105,155,205,0.8);
+  box-shadow: 0px 0px 5px 1px rgba(105,155,205,0.8);
+}
+
+.varify {
+  display: inline;
+  margin: 0px 112px 0;
+  line-height: 60px;
+}
+
+.varify input {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  height: 13px;
+  width: 13px;
+}
+
+label{
+  display: inline;
+  font-family: "Helvetica Neue", Arial;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.submit input {
+  margin: 0 auto;
+  width: 150px;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #2e7ac4, #4faddb);
+}
